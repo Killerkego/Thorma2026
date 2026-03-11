@@ -1,4 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
+
+namespace Foldrengesek_soe.Models;
+
 public class Telepules
 {
     public int ID { get; set; }
