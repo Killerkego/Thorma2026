@@ -12,7 +12,7 @@ namespace Foldrengesek_soe
             builder.Services.AddControllersWithViews();
 
             builder.Services.AddDbContext<FoldrengesContext>(options =>
-            options.UseMySQL(builder.Configuration.GetConnectionString("DefaultConnection")!));
+                options.UseMySQL(builder.Configuration.GetConnectionString("DefaultConnection")!));
 
 
             var app = builder.Build();
